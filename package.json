@@ -1,0 +1,24 @@
+{
+  "name": "protractorassignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc",
+    "pretest": "npm run tsc",
+    "test": "protractor testconfig.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "chai-as-promised": "^7.1.1",
+    "mocha": "^9.2.0",
+    "node": "^17.4.0",
+    "protractor": "^7.0.0"
+  },
+  "dependencies": {
+    "@types/jasmine": "^3.10.3",
+    "@types/chai":"^4.2.16"
+  }
+}
